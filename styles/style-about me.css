@@ -96,6 +96,7 @@ body{
         width: auto;
     }
     .pfp{
+        width: 65%;
         margin-bottom: 5%;
     }
     .rodape{
