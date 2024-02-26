@@ -4,32 +4,46 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <header class="topo">
-            Eleve seu negócio a outro nível <strong class="titulo-destaque"> com um desenvolvedor de qualidade!</strong>    
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about me.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+            </nav>
         </header>
-        <main class="apresentacao">
-            <section class="apresentacao__conteudo">
-                <p class="apresentacao__conteudo__intro">
-                    Olá, me chamo Bruno. Sou um desenvolvedor com conhecimento em <span>Front End e Back End</span>.
-                    <br>No Front End, domino <strong class="linguagens">HTML e CSS</strong>.
-                    <br>No Back End, tenho experiência em <strong class="linguagens"> Python, C e JavaScript</strong>.
-                </p>
-                <p class="apresentacao__conteudo__intro">
-                    <br>Entre em contato para trabalharmos juntos ou veja meus projetos!
-                    <br><br>
-                    <div class="apresentacao__conteudo__links">
-                        <a class="apresentacao__conteudo__links__botoes" href="https://www.instagram.com/azami_brn?igsh=MWtkbGlxeWxncTJ1cw==">Instagram</a>
-                        <br><br>
-                        <a class="apresentacao__conteudo__links__botoes" href="https://github.com/TheBurno/">Github</a>
-                    </div>
-                </p>
+        <main>
+            <section class="apresentacao">
+                <section class="apresentacao__conteudo">
+                    <p class="apresentacao__conteudo__vocativo">
+                        Eleve seu negócio a outro nível <strong class="titulo-destaque"> com um desenvolvedor de qualidade!</strong><br><br>
+                    </p>
+                    <p class="apresentacao__conteudo__intro">
+                        Olá, me chamo Bruno. Sou um desenvolvedor com conhecimento em <span>Front End e Back End</span>.
+                        <br>No Front End, domino <strong class="linguagens">HTML e CSS</strong>.
+                        <br>No Back End, tenho experiência em <strong class="linguagens"> Python, C e JavaScript</strong>.
+                    </p>
+                    <p class="apresentacao__conteudo__intro">
+                        <br>
+                        <div class="apresentacao__conteudo__links">
+                            <h2 class="apresentacao__conteudo__links__subtitulo">Entre em contato para trabalharmos juntos ou veja meus projetos!</h2><br>
+                            <a class="apresentacao__conteudo__links__botoes" href="https://github.com/TheBurno/">
+                                <img class="apresentacao__conteudo__links__botoes_icones" src="Assets-aula2-curso3-html-e-css-main/assets/github.png" alt="Ícone do Github">
+                                Github
+                            </a>
+                            <a class="apresentacao__conteudo__links__botoes" href="https://www.instagram.com/azami_brn?igsh=MWtkbGlxeWxncTJ1cw==">
+                                <img class="apresentacao__conteudo__links__botoes_icones" src="Assets-aula2-curso3-html-e-css-main/assets/instagram.png" alt="Ícone do Instagram">
+                                Instagram
+                            </a>
+                        </div>
+                    </p>
+                </section>
+                <img class="pfp" src="スクリーンショット 2024-02-16 150312.png" alt="Foto de perfil">
             </section>
-            <img src="スクリーンショット 2024-02-16 150312.png" alt="Foto de perfil">
-            <footer>
-
+            <footer class="rodape">
+                <p>Desenvolvido por Bruno Cardoso de Oliveira</p>
             </footer>
         </main>
     </body>

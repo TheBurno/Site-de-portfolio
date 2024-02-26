@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-de-fundo: #151515;
+    --cor-das-letras: #f6f6f6;
+    --cor-das-letras-2: #3C415C;
+    --cor-das-caixas: #301B3F;
+    --cor-hover: #0F1123;
+
+    --fonte-principal: "Lato", sans-serif;
+    --fonte-secundária: "Averia Serif Libre", serif;
+}
+
+.titulo-destaque{
+    color: #B4A5A5;
+}
+
+.linguagens{
+    color: var(--cor-das-letras-2);
+}
+
+
+span{
+    color: var(--cor-das-letras-2);
+}
+
+.pfp{
+    margin-left: 10%;
+    width: 65%;
+    border-radius: 16px;
+}
+
+.pfp-about{
+    margin-left: 10%;
+    width: 354%;
+    border-radius: 16px;
+}
+
+header{
+    color: var(--cor-das-letras-2);
+    font-family: var(--fonte-secundária);
+    font-weight: 400;
+    font-style: 24px;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 3%
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-das-letras);
+    box-sizing: border-box;
+    font-family: var(--fonte-secundária);
+    font-weight: 400;
+    font-style: 24px;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%
+}
+
+.apresentacao__conteudo{
+    width: 700 px;
+}
+
+.apresentacao__conteudo__vocativo{
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.apresentacao__conteudo__intro{
+    font-size: 20px;
+}
+
+.apresentacao__conteudo__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__conteudo__links__subtitulo{
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.apresentacao__conteudo__links__botoes{
+    /* background-color: #F6F6F6; */
+    border: 2px solid var(--cor-das-caixas);
+    color: var(--cor-das-letras);
+    text-align: center;
+    width: 378px;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.apresentacao__conteudo__links__botoes:hover{
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__conteudo__links__botoes_icones{
+    width: 5%;
+    justify-content: center;
+}
+
+.rodape{
+    padding: 24px;
+    text-align: center;
+    background-color: var(--cor-das-caixas);
+    color: var(--cor-das-letras);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: 24px;
+}
